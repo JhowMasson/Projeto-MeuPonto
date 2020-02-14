@@ -1,0 +1,14 @@
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\bin\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.deps.json
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\bin\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.runtimeconfig.json
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\bin\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.runtimeconfig.dev.json
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\bin\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.dll
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.csprojAssemblyReference.cache
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.RazorAssemblyInfo.cache
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.RazorAssemblyInfo.cs
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.AssemblyInfoInputs.cache
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.AssemblyInfo.cs
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\bin\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.pdb
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.dll
+C:\Users\45684686800\Documents\Meu_Ponto\BackEnd\Senai.MeuPonto.Solution\Senai.MeuPonto.WebApi\obj\Debug\netcoreapp2.1\Senai.MeuPonto.WebApi.pdb
