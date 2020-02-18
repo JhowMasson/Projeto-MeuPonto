@@ -1,15 +1,24 @@
 ﻿using Senai.MeuPonto.WebApi.Domains;
 using Senai.MeuPonto.WebApi.Interfaces;
 using Senai.MeuPonto.WebApi.ViewModels;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Senai.MeuPonto.WebApi.Repositorios
 {
     public class UsuariosRepositorio : IUsuariosRepositorio
     {
+        private PontoContext Context;
+
+        public UsuariosRepositorio()
+        {
+        }
+
+        public UsuariosRepositorio(PontoContext context)
+        {
+            this.Context = context;
+        }
+
         public void Cadastrar(Usuarios usuario)
         {
             using(PontoContext ctx = new PontoContext())
@@ -19,7 +28,7 @@ namespace Senai.MeuPonto.WebApi.Repositorios
             }
         }
 
-        public Usuarios EfetuarLogin(LoginViewModel login)
+        public Usuarios EfetuarLogin(string v, LoginViewModel login)
         {
             using(PontoContext ctx = new PontoContext())
             {
@@ -30,6 +39,11 @@ namespace Senai.MeuPonto.WebApi.Repositorios
                 }
                 return usuario;
             }
+        }
+
+        public Usuarios EfetuarLogin(LoginViewModel login)
+        {
+            throw new System.NotImplementedException();
         }
 
         public List<Usuarios> ListarUsuarios()

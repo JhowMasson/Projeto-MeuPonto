@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using Senai.MeuPonto.WebApi.Domains;
+using Senai.MeuPonto.WebApi.Repositorios;
 using Xunit;
 
 namespace Senai.MeuPonto.Teste.XUnit.Repositorios
@@ -13,11 +15,11 @@ namespace Senai.MeuPonto.Teste.XUnit.Repositorios
                .UseInMemoryDatabase(databaseName: "UsuarioEInvalido")
                .Options;
 
-            // Use a clean instance of the context to run the test
+            //Use a clean instance of the context to run the test
             using (var context = new PontoContext(options))
             {
-                var repositorio = new UsuariosRepositorio(context);
-                var validacao = repositorio.EfetuarLogin("MeuPonto@email.com", "12345678");
+                var repo = new UsuariosRepositorio(context);
+                var validacao = repo.EfetuarLogin("MeuPonto@email.com", "12345678");
 
                 Assert.Null(validacao);
             }
@@ -33,8 +35,8 @@ namespace Senai.MeuPonto.Teste.XUnit.Repositorios
             // Use a clean instance of the context to run the test
             using (var context = new PontoContext(options))
             {
-                var repositorio = new UsuariosRepositorio(context);
-                var validacao = repositorio.EfetuarLogin("MeuPonto@email.com", "12345678");
+                var repo = new UsuariosRepositorio(context);
+                var validacao = repo.EfetuarLogin("MeuPonto@email.com", "12345678");
 
                 Assert.Null(validacao);
             }
@@ -53,21 +55,6 @@ namespace Senai.MeuPonto.Teste.XUnit.Repositorios
                 Senha = "12345678",
                 Tipo = "ADMINISTRADOR"
             };
-
-            // Use a clean instance of the context to run the test
-            using (var context = new PontoContext(options))
-            {
-                UsuariosRepositorio repositorio = new UsuariosRepositorio(context);
-
-                context.Usuarios.Add(usuario);
-                context.SaveChanges();
-
-                Usuarios usuarioRetorno = repositorio.EfetuarLogin(usuario.Email, usuario.Senha);
-
-                Assert.Equals(usuarioRetorno.Email, usuario.Email);
-                Assert.Equals(usuarioRetorno.Senha, usuario.Senha);
-            }
         }
     }
 }
-

@@ -17,8 +17,8 @@
     },
     "Senai.MeuPonto.WebApi": {
       "commandName": "Project",
-      "launchBrowser": false,
-      "applicationUrl": "http://192.168.5.98:5000",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

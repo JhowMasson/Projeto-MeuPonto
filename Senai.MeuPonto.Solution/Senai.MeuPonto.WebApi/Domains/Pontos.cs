@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Senai.MeuPonto.WebApi.Domains
 {
-    public class Pontos
+    public partial class Pontos
     {
         public int IdPonto { get; set; }
         public int? IdUsuario { get; set; }
@@ -12,8 +12,5 @@ namespace Senai.MeuPonto.WebApi.Domains
         public string Imagem { get; set; }
 
         public Usuarios IdUsuarioNavigation { get; set; }
-
-
-
     }
 }
